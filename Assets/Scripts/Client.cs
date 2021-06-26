@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.SignalR.Client;
 
 public class Client: MonoBehaviour
 {
-	private readonly Uri _Uri = new Uri("http://localhost:5000");
+	private readonly Uri _Uri = new Uri("http://localhost:5000/GameHub");
 	private HubConnection _Connection;
 
 	private async void Awake()
